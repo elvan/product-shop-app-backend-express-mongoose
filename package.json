@@ -8,7 +8,8 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "data:seed": "node seeder",
+    "data:destroy": "node seeder -d",
+    "data:import": "node seeder",
     "dev": "nodemon server.js",
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
